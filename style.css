@@ -3,8 +3,40 @@ html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(img/gratis-png-star-wars-desktop-stormtrooper-espacio.png);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    color: aliceblue;
+    overflow-x: hidden;
+
+    }
+    section{
+        margin: 7px;
     }
     
+    .first{
+        float:left;
+         margin: 7px 7px 7px 0;
+         width: 250px;
+         height: 300px;
+    }
+    .second{
+        float: right;;
+         margin: 7px 7px 7px 0;
+         width: 270px;
+         height: 270px;
+    }
+    .third{
+        float:left;
+        margin: 7px 7px 7px 0;
+        width: 250px;
+        height: 250px;   
+    }
+    .txt{
+        font-size: 15px;
+    }
     a, a:link {
     color: black;
     }
@@ -17,6 +49,8 @@ html, body {
     padding: 10px;
     background: #555;
     text-align: center;
+    display: table;
+	height: 100%;
     }
     
     footer span {

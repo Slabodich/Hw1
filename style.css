@@ -5,13 +5,16 @@ html, body {
     padding: 0;
     }
     
-   
+    a, a:link {
+    color: black;
+    }
     a:hover {
     color: orange;
     }
     
     footer {
-   
+    width: 100vw;
+    padding: 10px;
     background: #555;
     text-align: center;
     }
